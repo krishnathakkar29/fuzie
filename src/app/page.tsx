@@ -2,13 +2,12 @@ import { InfiniteMovingCards } from "@/components/global/infinite-moving-cards";
 import Navbar from "@/components/global/navbar";
 import { Button } from "@/components/ui/button";
 import { clients } from "@/lib/constant";
-import Image from "next/image";
 
 export default function Home() {
   return (
     <main>
       <Navbar />
-      <section className="h-screen w-full bg-neutral-950 rounded-md  !overflow-visible relative flex flex-col items-center antialiased justify-center ">
+      <section className="h-screen w-full bg-neutral-950 rounded-md !overflow-visible relative flex flex-col items-center antialiased justify-center ">
         <Button
           size={"lg"}
           className="p-8 mb-8 md:mb-0 text-2xl w-full sm:w-fit border-t-2 rounded-full border-[#4D4D4D] bg-[#1F1F1F] hover:bg-white group transition-all flex items-center justify-center gap-4 hover:shadow-xl hover:shadow-neutral-500 duration-500"
