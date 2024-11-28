@@ -1,6 +1,6 @@
+import ConnectionCard from "@/components/page-components/connections/connection-card";
 import { CONNECTIONS } from "@/lib/constant";
 import React from "react";
-import ConnectionCard from "./_components/connection-card";
 
 type Props = {};
 
